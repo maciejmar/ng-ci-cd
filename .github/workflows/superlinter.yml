@@ -9,8 +9,8 @@ jobs:
     steps: 
       - name: Checkout code
         uses: actions/checkout@v2
-      -name: Run Super-Linter
-       uses: githib/super-linter@v3
-       env:
-        DEFAULT_BRANCH: master
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run Super-Linter
+        uses: githib/super-linter@v3
+        env:
+         DEFAULT_BRANCH: master
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
