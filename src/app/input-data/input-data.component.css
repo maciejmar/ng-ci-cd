@@ -1,0 +1,14 @@
+.container-input{
+  width:40%;
+  height:20%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size:larger;
+  display: flex;
+  border-radius:4px;
+  box-shadow: 3;
+}
+.input-data-name
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
