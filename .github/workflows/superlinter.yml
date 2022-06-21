@@ -14,3 +14,8 @@ jobs:
         env:
          DEFAULT_BRANCH: master
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         runs-on: self-hosted
+      - run: npm cache clean --force
+      - run: npm install
+      - run: npm install -g @angular/cli > /dev/null
+      - run: ng build
