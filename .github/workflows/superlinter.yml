@@ -1,9 +1,7 @@
 name: Super-linter
 
 on: 
- push:
-  branches: 
-    -master;
+ push
 jobs:
   super-lint:
     name: Lint code base
