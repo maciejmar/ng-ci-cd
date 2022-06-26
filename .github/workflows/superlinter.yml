@@ -5,8 +5,12 @@ on:
 jobs:
  build:
   runs-on: self-hosted;
+  strategy:
+   matrix:
+    node-version: [14.x]
+    
   steps: 
-      - name: Checkout code
+      - name: Use Node.js ${{ matrix.node-version}}
         uses: actions/checkout@v2
       - name: Run Super-Linter
         uses: github/super-linter@v3.17.0
