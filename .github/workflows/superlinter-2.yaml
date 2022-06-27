@@ -21,4 +21,5 @@ jobs:
 
       - name: run build
         run:
+          npm i 
           npm run build
