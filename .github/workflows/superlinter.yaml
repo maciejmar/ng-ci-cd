@@ -1,4 +1,4 @@
-name: superlinter
+name: superLinter
 
 on: 
  push
