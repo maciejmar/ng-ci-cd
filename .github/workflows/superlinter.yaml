@@ -1,4 +1,4 @@
-name: Super-linter
+name: superlinter
 
 on: 
  push
@@ -12,11 +12,10 @@ jobs:
   steps: 
       - name: Use Node.js ${{ matrix.node-version}}
         uses: actions/checkout@v2
-      - name: Run Super-Linter
+      - name: Run superLinter
         uses: github/super-linter@v3.17.0
         env:
          DEFAULT_BRANCH: master
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: npm ci and npm run build
         run: |
           npm ci
