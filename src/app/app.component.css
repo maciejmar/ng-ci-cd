@@ -1,8 +1,5 @@
-.firstModal{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size:34px;
-  background-color:beige;
-  color:brown;
-  width:50%;
-  height:30%;
+body{
+  background: #2ec194;
+  font-family: Verdana;
+  font-size: 3en;
 }
